@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px;
+  width: 500px;
+
+  background: whitesmoke;
+  border-radius: 0.45rem;
+  border: 1px solid #444444;
+}
+
+.titlePage {
+  font-size: 2.3rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #171717;
+}
+
+.successMessage {
+  color: #171717;
+  margin-bottom: 12px;
+  text-align: justify;
+
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.button {
+  background: royalblue;
+  color: #ffffff;
+
+  text-align: center;
+  width: 120px;
+  padding: 10px;
+  border-radius: 0.45rem;
+
+  outline: none;
+  border: 1px solid rgba(68,68,68,0.3);
+  cursor: pointer;
+
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.button:active {
+  outline: 3px solid rgba(65,105,225,0.4);
+}
+
+.permissionCheckTip {
+  font-size: 0.9rem;
+  color: #444444;
+  text-decoration: none;
+}
+
+.permissionCheckTip:hover {
+  text-decoration: underline;
+}
